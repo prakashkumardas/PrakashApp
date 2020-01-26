@@ -25,7 +25,8 @@
         <distributionManagement>
 		<repository>
     <id>prakash</id>
-      
+      		</repository>
+
 
 </distributionManagement>
 	
