@@ -8,6 +8,9 @@
   <fileSets>
     <fileSet>
       <directory>${project.build.directory}</directory>
+      <includes>
+                <include>*.war</include>
+            </includes>
     </fileSet>
   </fileSets>
 </assembly>
