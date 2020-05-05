@@ -33,6 +33,32 @@
 </distributionManagement>
 	
 	<build>
+		
+		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.5.2</version>
+				<configuration>
+					<appendAssemblyId>false</appendAssemblyId>
+					<finalName>Prakash</finalName>
+					<descriptors>
+						<descriptor>${basedir}/assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>create-archive</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+		
+		
+		
 		<finalName>webappExampleDas</finalName>
 	</build>
 </project>
