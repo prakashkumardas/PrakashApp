@@ -7,7 +7,7 @@
   </formats>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}</directory>
+      <directory>${project.build.directory}/target</directory>
     </fileSet>
   </fileSets>
 </assembly>
